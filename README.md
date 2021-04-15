@@ -1,0 +1,1 @@
+Ссылка на GitHub Pages: ```https://incomprehensibleguy.github.io/rockstone-task/src/index.html```

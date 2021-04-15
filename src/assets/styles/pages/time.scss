@@ -1,0 +1,15 @@
+.time {
+  padding: 1em;
+  border-radius: 1em;
+  margin: auto;
+  font-size: 2em;
+  background-color: $color-primary;
+  color: #fff;
+  text-align: center;
+
+  &__wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+}

@@ -1,0 +1,37 @@
+.btn {
+  padding: 1em 0.9em;
+  border-radius: 0.625em;
+  border: none;
+  background-color: $color-primary;
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  transition: 0.3s ease;
+
+  &:active {
+    border: 2px solid $color-secondary;
+  }
+  &:active {
+    background-color: darken($color-primary, 10%);
+  }
+  &:disabled {
+    background-color: lighten($color-primary, 20%);
+  }
+}
+
+.pages-container {
+  width: 100vw;
+  display: flex;
+  overflow-x: scroll;
+  transition: 0.3s all;
+}
+
+.page {
+  height: 100vh;
+  width: 100%;
+  overflow: scroll;
+  flex: 0 0 auto;
+  transition: 0.3s all;
+}

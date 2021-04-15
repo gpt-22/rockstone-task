@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 1em .9em;
+  border-radius: .625em;
+  border: none;
+  background-color: #42b983;
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .1em;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.btn:active {
+  border: 2px solid #2c3e50;
+}
+
+.btn:active {
+  background-color: #359368;
+}
+
+.btn:disabled {
+  background-color: #8bd6b4;
+}
+
+.pages-container {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: scroll;
+  -webkit-transition: .3s all;
+  transition: .3s all;
+}
+
+.page {
+  height: 100vh;
+  width: 100%;
+  overflow: scroll;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  -webkit-transition: .3s all;
+  transition: .3s all;
+}
+
+.form__container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: .75em;
+}
+
+.form .textarea {
+  width: 100%;
+  outline: none;
+  padding: 1em;
+  border-radius: .625em;
+  border-width: 2px;
+  font-size: 1em;
+  resize: none;
+}
+
+.form .btn-submit {
+  margin: 0 0 0 .75em;
+}
+
+.texts {
+  padding: 1.5em .75em;
+}
+
+.texts__item {
+  padding: 1em;
+  border-radius: 1em;
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+.texts__item:not(.texts__item:last-child) {
+  margin: 0 0 1em 0;
+}
+
+.time {
+  padding: 1em;
+  border-radius: 1em;
+  font-size: 2em;
+  background-color: #42b983;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+}
+
+.time__wrapper {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container {
+  font-size: 40px;
+  font-family: 'Red Hat Display', sans-serif;
+  letter-spacing: 1.5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 600px;
+  height: 40px;
+}
+
+.container * {
+  display: inline-block;
+  overflow: hidden;
+  position: absolute;
+}
+
+.bar {
+  width: 3px;
+  height: 49px;
+  position: absolute;
+  top: -1px;
+}
+/*# sourceMappingURL=style.css.map */

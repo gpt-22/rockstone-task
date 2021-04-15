@@ -1,0 +1,40 @@
+.form {
+  
+  &__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0.75em;
+  }
+
+  .textarea {
+    width: 100%;
+    outline: none;
+    padding: 1em;
+    border-radius: 0.625em;
+    border-width: 2px;
+    font-size: 1em;
+    resize: none;
+  }
+
+  .btn-submit {
+    margin: 0 0 0 0.75em;
+  }
+}
+
+.texts {
+  padding: 1.5em 0.75em;
+
+  &__item {
+    padding: 1em;
+    border-radius: 1em;
+    background-color: $color-secondary;
+    color: #fff;
+    font-family: monospace;
+  }
+
+  &__item:not(&__item:last-child) {
+    margin: 0 0 1em 0;
+  }
+}
